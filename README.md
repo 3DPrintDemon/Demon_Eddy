@@ -10,11 +10,23 @@ This file is for Eddy USB & Eddy Duo units using the probe as an virtual end sto
 
 It has been designed to run perfectly with the [Demon Klipper Essentials Unified](https://github.com/3DPrintDemon/Demon_Klipper_Essentials_Unified) macro pack!
 
+
+
+
 > [!TIP]
 > For full install & setup instructions of your Eddy probe head to the main [BTT EDDY repository here](https://github.com/bigtreetech/Eddy)
 
-Download the Demon_BTT_Eddy_Offset.cfg file drop it into your printer's config directory.
+### INSTALL
+Download the Demon_BTT_Eddy_Offset.cfg file above & drop it into your printer's config directory.
 
+You can also use the command below via SSH:
+
+```
+cd ~/printer_data/config
+wget https://raw.githubusercontent.com/3DPrintDemon/Demon_Eddy/refs/heads/master/Demon_BTT_Eddy_Offset.cfg --backups=1
+```
+
+### SETUP
 1. Set the file to your requirements by entering the correct ID for your chosen interface.
 2. Set the machine parameters for your printer, like bed mesh data, probe offset & any other settings you need.
 3. Enable any optional sections or macros within the file that you might need. If using the file with the Demon Klipper Essentials Unified files you DO NOT need to do this!
