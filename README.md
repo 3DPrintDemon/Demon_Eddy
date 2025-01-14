@@ -12,9 +12,16 @@ It has been designed to run perfectly with the [Demon Klipper Essentials Unified
 
 
 
+Does your Eddy probe always print too high even though you have set your runtime offset & saved it correctly? Do you have to always adjust the probe down for each print? 
 
-> [!TIP]
-> For full install & setup instructions of your Eddy probe head to the main [BTT EDDY repository here](https://github.com/bigtreetech/Eddy)
+
+### The issue with the stock offset macro...
+Well to be honest there isn't one, ....unless your macros have a `SET_GCODE_OFFSET Z=0` command in them, for example like when your macros clear the Z offset after a print, or before one starts, or you use other automatically applied & removed Z offset modifiers! Then you run into problems.
+
+This fork of the BTT Eddy macros gets round this by allowing the Eddy offset macro to always be able recall its stored offset when homing after its been cleared manually or via macro without needing to restart Klipper!!
+
+
+
 
 ### INSTALL
 Download the Demon_BTT_Eddy_Offset.cfg file above & drop it into your printer's config directory.
@@ -25,6 +32,9 @@ You can also use the command below via SSH:
 cd ~/printer_data/config
 wget https://raw.githubusercontent.com/3DPrintDemon/Demon_Eddy/refs/heads/master/Demon_BTT_Eddy_Offset.cfg --backups=1
 ```
+> [!TIP]
+> For full install & setup instructions of your Eddy probe head to the main [BTT EDDY repository here](https://github.com/bigtreetech/Eddy)
+
 
 ### SETUP
 1. Set the file to your requirements by entering the correct ID for your chosen interface.
@@ -85,9 +95,9 @@ G0 Z0
 ```
 or lower the nozzle to Z0 with the move buttons, DO NOT use the Z-Offset adjust buttons! You will be very sorry if you do that!
 
-Your piece of paper should still be moveable. Now use the mainsail Z-Offset adjsut buttons to correctly set your perfect Z-Offset! Light but definite pressure on the paper!
+Your piece of paper should still be moveable. Now use the mainsail Z-Offset adjust buttons to correctly set your perfect Z-Offset! Light but definite pressure on the paper!
 
 Now hit the little disk Save button in the toolhead Z_Offset section.
 
 > [!IMPORTANT]
->Be VERY careful with your first print! Use an old bed surface or at least send a print with it off centre. If the Z offest needs adjusting do so & then hit save & retry!
+>Be VERY careful with your first print! Use an old bed surface or at least send a print with it off centre. If the Z offset needs adjusting do so & then hit save & retry!
