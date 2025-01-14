@@ -6,10 +6,13 @@
 
 Demonise your Eddy!
 
-This file is for Eddy USB & Eddy Duo units using the probe as an virtual end stop with the beta offset function enabled ONLY!
+This file is for Eddy USB & Eddy Duo units using the probe as a virtual end stop with the beta offset function enabled ONLY! 
 
-It has been designed to run perfectly with the [Demon Klipper Essentials Unified](https://github.com/3DPrintDemon/Demon_Klipper_Essentials_Unified) macro pack!
+It is NOT for the Eddy Coil version!
 
+************************************
+The macros here have been designed to run perfectly with the [Demon Klipper Essentials Unified](https://github.com/3DPrintDemon/Demon_Klipper_Essentials_Unified) macro pack!
+************************************
 
 
 Does your Eddy probe always print too high even though you have set your runtime offset & saved it correctly? Do you have to always adjust the probe down for each print? 
