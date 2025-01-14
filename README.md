@@ -51,7 +51,7 @@ wget https://raw.githubusercontent.com/3DPrintDemon/Demon_Eddy/refs/heads/master
 ```
 
 > [!IMPORTANT]
-> Make sure you have everything set up correctly & working before you try printing. Inproper setup & use can & will casue printer damage! This is on you.
+> Make sure you have everything set up correctly & working before you try printing. Improper setup & use can & will casue printer damage! This is on you.
 
 
 Set your toolhead with the nozzle 20mm off the bed & run this command from the console:
