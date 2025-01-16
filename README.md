@@ -29,6 +29,11 @@ This fork of the BTT Eddy macros gets round this by allowing the Eddy offset mac
 ### INSTALL
 Download the Demon_BTT_Eddy_Offset.cfg file above & drop it into your printer's config directory.
 
+> [!CAUTION]
+>  If you have any of the original BTT Eddy files inculded in your system be sure to disable them BEFORE you try to use this file!
+
+<br>
+
 You can also use the command below via SSH:
 
 ```
