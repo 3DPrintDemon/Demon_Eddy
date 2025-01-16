@@ -31,6 +31,8 @@ Download the Demon_BTT_Eddy_Offset.cfg file above & drop it into your printer's 
 
 > [!CAUTION]
 >  If you have any of the original BTT Eddy files inculded in your system be sure to disable them BEFORE you try to use this file!
+> 
+> Be EXTREMLY CAREFUL when attempting your first homing! be ready to hit emergency stop if needed!
 
 <br>
 
