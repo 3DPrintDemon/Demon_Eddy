@@ -109,5 +109,12 @@ Your piece of paper should still be moveable. Now use the mainsail Z-Offset adju
 
 Now hit the little disk Save button in the toolhead Z_Offset section.
 
+> [!CAUTION]
+> DO NOT SAVE ANY OFFSETS FROM KLIPPERSCREEN!
+>
+> You can adjust it, but don't save from there, it'll say it's saving your offset to probe but it will not & it will not work for Eddy.
+>
+> Save offset from MAINSAIL ONLY. 
+
 > [!IMPORTANT]
 >Be VERY careful with your first print! Use an old bed surface or at least send a print with it off centre. If the Z offset needs adjusting do so & then hit save & retry!
