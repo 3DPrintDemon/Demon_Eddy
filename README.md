@@ -23,7 +23,7 @@ Well to be honest there isn't one, ....unless your macros have a `SET_GCODE_OFFS
 
 This fork of the BTT Eddy macros gets round this by allowing the Eddy offset macro to always be able recall its stored offset when homing after its been cleared manually or via macro without needing to restart Klipper!!
 
-
+<br>
 
 
 ### INSTALL
@@ -45,6 +45,7 @@ wget https://raw.githubusercontent.com/3DPrintDemon/Demon_Eddy/refs/heads/master
 > [!TIP]
 > For full install & setup instructions of your Eddy probe head to the main [BTT EDDY repository here](https://github.com/bigtreetech/Eddy)
 
+<br>
 
 ### SETUP
 1. Set the file to your requirements by entering the correct ID for your chosen interface.
@@ -80,8 +81,9 @@ If you can't push the paper under the nozzle it’s too tight! You can experimen
 
 Save & restart
 
+<br>
 
-Next while the printer is still cold follow the setup steps here for [thermal comensation](https://github.com/3DPrintDemon/Demon_Eddy?tab=readme-ov-file#5-temperature-compensation-calibration-eddy-usb-only)
+### Next while the printer is still cold follow the setup steps for thermal compensation
 
 If using an unenclosed printer use the stock values:
 ```
