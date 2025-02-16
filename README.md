@@ -85,6 +85,16 @@ Save & restart
 
 ### Next while the printer is still cold follow the setup steps for thermal compensation
 
+Home your printer.
+
+Send this command to extend your idle timeout. 
+
+```
+SET_IDLE_TIMEOUT TIMEOUT=36000
+```
+
+Now set your bed to above 100°c, & your hotend to 220°c manually, then without waiting for anything to heat up send one of the following commands...
+
 If using an unenclosed printer use the stock values:
 ```
 TEMPERATURE_PROBE_CALIBRATE PROBE=btt_eddy TARGET=56 STEP=4
@@ -95,9 +105,9 @@ If your printer is enclosed use these:
 TEMPERATURE_PROBE_CALIBRATE PROBE=btt_eddy TARGET=70 STEP=5
 ```
 
-After that....
+After the long process where you set the offset a good few times the command will finish & you will need to save & restart. You'll now need to check & maybe adjust your offset....
 
-Home your printer.
+Home the printer again
 
 Lower your nozzle CAREFULLY to 2mm using the Mainsail move commands in the toolhead section.
 
